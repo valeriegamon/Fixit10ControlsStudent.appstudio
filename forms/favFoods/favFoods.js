@@ -3,6 +3,7 @@ Add a button on the right bottom corner of the form for navigation,
 When clicked, goes to the next page - the dessertVoting form. 
 */
 
+
 let foods = ["pizza","apples","cookies","sushi","pasta","steak"]
 
 favFoods.onshow=function(){
