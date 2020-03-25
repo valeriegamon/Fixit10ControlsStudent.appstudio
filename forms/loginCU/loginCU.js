@@ -1,10 +1,6 @@
-//Scenario: the user is going to use their CU login to access/log into your app. 
-//If they successfully authenticate, send them to the 'favFoods' form. 
-//If they aren't authenticated, reset the input controls to blank and give them a 
-//message that they can try again as their login was not valid. 
+// for simplicity's sake, req1 has been redefined as req
 
 req = Ajax("https://radlab.creighton.edu/appStudio/authLDAP.php", "POST", "j_username=" + inptNetID.value + "&j_password=" + inptNetIDPassword.value);
-
 
 btnLogin.onclick=function(){
 
@@ -24,4 +20,8 @@ btnLogin.onclick=function(){
     } else 
         //Handle that. 
         NSB.MsgBox("The app could not connect to the server. Please try again.")
+}
+
+btnFavFoods.onclick=function(){
+    ChangeForm(favFoods)
 }
