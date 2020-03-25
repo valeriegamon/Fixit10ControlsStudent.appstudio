@@ -1,5 +1,4 @@
 // for simplicity's sake, req1 has been redefined as req
-
 req = Ajax("https://radlab.creighton.edu/appStudio/authLDAP.php", "POST", "j_username=" + inptNetID.value + "&j_password=" + inptNetIDPassword.value);
 
 btnLogin.onclick=function(){
