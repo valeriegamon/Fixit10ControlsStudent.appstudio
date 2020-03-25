@@ -16,7 +16,25 @@
         "forms",
         "favFoods",
         "Elements",
-        "Image1.json"
+        "lstFoods.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "favFoods",
+        "Elements",
+        "lblOutputFoods.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "favFoods",
+        "Elements",
+        "lblTopFoods.json"
       ]
     }
   ],
