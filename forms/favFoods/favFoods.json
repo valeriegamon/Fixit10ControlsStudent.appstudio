@@ -36,6 +36,15 @@
         "Elements",
         "lblTopFoods.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "favFoods",
+        "Elements",
+        "btnDessertVoting.json"
+      ]
     }
   ],
   "class": "",

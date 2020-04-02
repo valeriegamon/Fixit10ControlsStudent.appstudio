@@ -1,8 +1,3 @@
-/*
-Add a button on the right bottom corner of the form for navigation, 
-When clicked, goes to the next page - the dessertVoting form. 
-*/
-
 let foods = ["pizza","apples","cookies","sushi","pasta","steak"]
 
 favFoods.onshow=function(){
@@ -18,12 +13,23 @@ lstFoods.onclick=function(choice){  // notice the 'choice' parameter. This is th
   } else {
       
   let textChoice = NSB.$("lstFoods_" + choice).textContent
-  //NSB.MsgBox(`You picked ${textChoice}! That is a great choice!!`)
+  NSB.MsgBox(`You picked ${textChoice}! That is a great choice!!`)
  
   }
 }
 
-/*   
+btnDessertVoting.onclick=function(){
+    ChangeForm(dessertVoting)
+}
+
+/* 
+Use a light blue label for output. 
+
+Change the Listgroup properties so that: 
+the Listgroup is a button-type, that highlights a choice when the user clicks on it. 
+
+
+
   // how to change text of an item already on the list
   // change Teddy, at location 2, to Esmerelda
   let newPlace = 0   //index where you want replacement to go
