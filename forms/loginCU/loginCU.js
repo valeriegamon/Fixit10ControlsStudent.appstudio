@@ -1,7 +1,8 @@
 // for simplicity's sake, req1 has been redefined as req
-req = Ajax("https://radlab.creighton.edu/appStudio/authLDAP.php", "POST", "j_username=" + inptNetID.value + "&j_password=" + inptNetIDPassword.value);
+req = ""
 
 btnLogin.onclick=function(){
+    req = Ajax("https://radlab.creighton.edu/appStudio/authLDAP.php", "POST", "j_username=" + inptNetID.value + "&j_password=" + inptNetIDPassword.value);
 
     if (req.status == 200) { //everything worked.
         //lblWelcome.style.display = "block"  // none to hide
