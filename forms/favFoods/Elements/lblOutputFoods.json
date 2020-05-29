@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4",
-  "appearance": "secondary",
+  "appearance": "primary",
   "backgroundColor": "",
   "borderRadius": "0",
   "bottom": "auto",
@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblOutputFoods",
   "labelStyle": "text",
-  "left": 39,
+  "left": 15,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 384,
-  "value": "",
-  "width": 254
+  "top": 426,
+  "value": "Label",
+  "width": 105
 }
