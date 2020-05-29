@@ -12,10 +12,7 @@ lstFoods.onclick=function(choice){
     return
   } else {
     let textChoice = NSB.$("lstFoods_" + choice).textContent
-
-    lblOutputFoods.onclick=function() {
-      lblOutputFoods = (`You picked ${textChoice}! That is a great choice!!`)
-      }
+    lblOutputFoods.value= "You picked: " + textChoice
   }
 }
 
@@ -24,11 +21,6 @@ btnDessertVoting.onclick=function(){
 }
 
 /* 
-Use a light blue label for output. 
-
-??????Change the Listgroup properties so that: 
-the Listgroup is a button-type, that highlights a choice when the user clicks on it. 
-
 lblOutputFoods.onclick=function(){
       lblOutputFoods = (`You picked ${NSB.$("lstFoods_" + choice).textContent}! That is a great choice!!`)
 
