@@ -12,7 +12,7 @@ drpDesserts.onclick=function(dessert){
       return                    
     } else {  
       let textDessert = NSB.$("drpDesserts" + dessert).textContent
-      lblOutputDesserts.value= 'You picked:' +textDessert+ '-that is a great choice!')
+      lblOutputDesserts.value= "You picked:" +textDessert+ "-that is a great choice!"
       }
   }
 
