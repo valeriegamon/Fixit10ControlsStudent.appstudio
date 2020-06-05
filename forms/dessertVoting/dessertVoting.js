@@ -11,12 +11,14 @@ drpDesserts.onclick=function(dessert){
     if (typeof(dessert) == "object") {
       return                    
     } else {  
-      let textDessert = NSB.$("drpDesserts" + dessert).textContent
-      lblOutputDesserts.value= "You picked:" +textDessert+ "-that is a great choice!"
+    //let textDessert = drpDesserts.dessert
+      alert(dessert)
+      //NSB.$(“drpDesserts” + dessert)
+      lblOutputDesserts.value= (`You picked: ${textDessert} -that is a great choice!`)
       }
   }
 
 
-/* 
-Add a button on the right bottom corner of the form that, when clicked, goes to the next page - the describeYou page. 
-*/
+btnDescribeYou.onclick=function(){
+    ChangeForm(describeYou)
+}
