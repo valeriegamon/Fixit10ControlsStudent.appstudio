@@ -11,8 +11,7 @@ drpDesserts.onclick=function(dessert){
     if (typeof(dessert) == "object") {
       return                    
     } else {  
-    //let textDessert = drpDesserts.dessert
-      alert(dessert)
+    let textDessert = drpDesserts.dessert
       //NSB.$(“drpDesserts” + dessert)
       lblOutputDesserts.value= (`You picked: ${textDessert} -that is a great choice!`)
       }
