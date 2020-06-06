@@ -18,6 +18,15 @@
         "Elements",
         "lblPrompt2.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "describeYou",
+        "Elements",
+        "rbnDescribe.json"
+      ]
     }
   ],
   "class": "",

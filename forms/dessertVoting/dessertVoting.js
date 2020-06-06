@@ -11,13 +11,15 @@ drpDesserts.onclick=function(dessert){
     if (typeof(dessert) == "object") {
       return                    
     } else {  
-    //let textDessert = drpDesserts.dessert
-      //NSB.$(“drpDesserts” + dessert)
-      lblOutputDesserts.value= (`You picked: ${drpDesserts.dessert} -that is a great choice!`)
+    let textDessert = drpDesserts.dessert
+      lblOutputDesserts.value= (`You picked: ${textDessert} -that is a great choice!`)
       }
   }
-
 
 btnDescribeYou.onclick=function(){
     ChangeForm(describeYou)
 }
+
+
+//let textDessert = drpDesserts.dessert
+      //NSB.$("drpDesserts_" + dessert).textContent
