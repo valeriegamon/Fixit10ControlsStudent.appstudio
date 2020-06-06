@@ -1,7 +1,5 @@
 /*
-Scenario: 
-The user will be select one of the characteristics shown in a
-list of radio buttons that represents them best. 
+
 Remember, only one radio button should be able to be 
 chosen. 
 Otherwise checkboxes (for which you can pick more than 
