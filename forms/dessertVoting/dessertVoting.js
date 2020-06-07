@@ -9,9 +9,9 @@ drpDesserts.onshow=function(){
 
 drpDesserts.onclick=function(dessert){
     if (typeof(dessert) == "object") {
-      return                    
+      return  
     } else {  
-    let textDessert = NSB.$("drpDesserts_" + dessert).value
+    let textDessert = NSB.$("drpDesserts_" + dessert).textContent
       lblOutputDesserts.value= "You picked: " + textDessert + " -that is a great choice!"
       }
   }
