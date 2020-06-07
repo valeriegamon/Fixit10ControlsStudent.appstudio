@@ -11,7 +11,7 @@ rbnDescribe.onclick=function(word){
     if (typeof(word) == "object") { 
     return
   } else {
-    let wordChoice = rbnDescribe.word
+    let wordChoice = NSB.$("rbnDescribe" + word).textContent
     lblDescribeYou.value= (`I would agree that you are a  ${wordChoice} person too!`)
   }
 }
