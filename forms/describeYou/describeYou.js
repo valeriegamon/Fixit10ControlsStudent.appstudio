@@ -1,6 +1,5 @@
 /*
-Add event handler code  that shows a message in a 
-label control in this format: 
+Add event handler code that shows a message in a label control in this format: 
 I would agree that you are a 'trusting' person too!
 */
 
