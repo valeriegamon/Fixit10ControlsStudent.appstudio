@@ -36,6 +36,24 @@
         "Elements",
         "btnFavExercies2.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "favExercises",
+        "Elements",
+        "btnSubmit.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "favExercises",
+        "Elements",
+        "mdlModal.json"
+      ]
     }
   ],
   "class": "",
